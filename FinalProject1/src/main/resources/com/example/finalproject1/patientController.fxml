@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.finalproject1.PatientController">
+   <children>
+      <ImageView fitHeight="423.0" fitWidth="248.0" layoutX="-6.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@UserSide1.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="9.0" layoutY="27.0" text="Hospital Management System" textFill="#ebe4e4">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="92.0" text="Username:" />
+      <Label layoutX="14.0" layoutY="121.0" text="Patient ID:" />
+      <Label layoutX="14.0" layoutY="190.0" text="Name:" />
+      <Label layoutX="18.0" layoutY="225.0" text="Age:" />
+      <Label layoutX="16.0" layoutY="265.0" text="Address:" />
+      <Label layoutX="347.0" layoutY="33.0" text="Patient Portal">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="296.0" fitWidth="350.0" layoutX="242.0" layoutY="164.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Untitled111.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="249.0" layoutY="135.0" text="Medical History:">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <TableView layoutX="242.0" layoutY="169.0" prefHeight="145.0" prefWidth="350.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="Date" />
+          <TableColumn prefWidth="108.0" text="Medical Report " />
+            <TableColumn prefWidth="68.0" text="Height" />
+            <TableColumn prefWidth="94.0" text="Weight" />
+        </columns>
+      </TableView>
+      <Button layoutX="255.0" layoutY="336.0" mnemonicParsing="false" text="Appointment for Doctor" />
+      <Button layoutX="255.0" layoutY="372.0" mnemonicParsing="false" text="Upcoming Appoinments" />
+      <Button layoutX="417.0" layoutY="372.0" mnemonicParsing="false" text="Previous Appoinments" />
+      <Button layoutX="417.0" layoutY="336.0" mnemonicParsing="false" text="Check Available Slots" />
+      <Button layoutX="13.0" layoutY="324.0" mnemonicParsing="false" text="Edit Details" />
+      <Button layoutX="13.0" layoutY="372.0" mnemonicParsing="false" onAction="#logoutP" text="Logout" />
+      <Label layoutX="89.0" layoutY="92.0" text="ahmad2008" />
+      <Label layoutX="89.0" layoutY="121.0" text="2008" />
+      <Label layoutX="89.0" layoutY="190.0" text="Ahmad Khan" />
+      <Label layoutX="89.0" layoutY="225.0" text="48" />
+      <Label layoutX="88.0" layoutY="265.0" text="35 New Eskaton, Dhaka" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.finalproject1.StartForm">
+   <children>
+      <ImageView fitHeight="73.0" fitWidth="142.0" layoutX="214.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@hospital-logo.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="251.0" fitWidth="278.0" layoutX="14.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@features.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="303.0" layoutY="90.0" text="Khan MedCare" textFill="#3d21c9">
+         <font>
+            <Font name="Arial Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="270.0" fitWidth="195.0" layoutX="302.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@frontPage1.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="315.0" layoutY="137.0" text="Welcome to">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="315.0" layoutY="164.0" text="Hospital Management System">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font>
+      </Label>
+      <Label layoutX="315.0" layoutY="200.0" text="New user? Please Register:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="315.0" layoutY="277.0" text="Already have an account?">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="315.0" layoutY="294.0" text="Please Login:" />
+      <Button layoutX="315.0" layoutY="226.0" mnemonicParsing="false" onAction="#register" text="Register" />
+      <Button layoutX="315.0" layoutY="319.0" mnemonicParsing="false" onAction="#login0" text="Login" />
+   </children>
+</AnchorPane>
